@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<template>triple-bottom</template>
+	<zone id="1">
+		<script src="users_connections_list.php" />
+		<html>
+			<br />
+			<br />
+		</html>
+	</zone>
+	<zone id="3">
+		<script src="user_list.php" />
+		<!--html><h3>zone3_1</h3></html-->
+	</zone>
+	<zone id="2">
+		<script src="group_list.php" />
+		<!--html><h3>zone2_1</h3></html-->
+	</zone>
+	<zone id="2">
+		<html><h3>zone2_2</h3><font size='1'>(ознакомьтесь с документацией)</font></html>
+	</zone>
+	<zone id="3">
+		<!--html><h3>zone3_2</h3></html-->
+	</zone>
+</data>

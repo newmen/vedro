@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<name>demo</name>
+	<menu name="Demo модуль">
+		<item name="deMo Item1" pos="20">
+			<item name="Demo iTem" full_name="Список пользователей"
+				script_name="user_edit.php" />
+		</item>
+		<item name="Демо элемент2" script_name="demo2.php" />
+	</menu>
+</data>

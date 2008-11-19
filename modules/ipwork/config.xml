@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<name>ipwork</name>
+	<menu name="IP Work">
+		<item name="Внешние IP">
+			<item name="Список" full_name="Список присвоенных внешних IP" script_name="external_ip_list.php" />
+			<item name="Редактировать" full_name="Изменить информацию о присвоенном внешнем IP" script_name="external_ip_edit.php" />
+			<item name="Добавить" full_name="Присвоить внешних IP" script_name="external_ip_add.php" />
+		</item>
+	</menu>
+</data>

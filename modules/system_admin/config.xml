@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<name>system_admin</name>
+	<menu name="Систем. админ" full_name="Системный админ"
+		script_name="info.xml">
+		<item name="Группы">
+			<item name="Список" full_name="Список системных групп"
+				script_name="group_list.php">
+			</item>
+			<item name="Редактировать"
+				full_name="Редактировать системную группу"
+				script_name="group_edit.php" />
+			<item name="Добавить"
+				full_name="Добавление системной группы" script_name="group_add.php" />
+		</item>
+		<item name="Пользователи">
+			<item name="Список"
+				full_name="Список системных пользователей"
+				script_name="user_list.php" />
+			<item name="Кто online"
+				full_name="Список online системных пользователей"
+				script_name="users_connections_list.php" />
+			<item name="История логинов"
+				full_name="История подключений системных пользователей"
+				script_name="users_connections_history.php" />
+			<item name="Редактировать"
+				full_name="Редактировать системного пользователя"
+				script_name="user_edit.php" />
+			<item name="Добавить"
+				full_name="Добавление системного пользователя"
+				script_name="user_add.php" />
+		</item>
+		<item name="Локации">
+			<item name="Список" full_name="Список локаций"
+				script_name="locate_list.php">
+			</item>
+			<item name="Редактировать"
+				full_name="Редактировать локацию"
+				script_name="locate_edit.php" />
+			<item name="Добавить"
+				full_name="Добавление локации" script_name="locate_add.php" />
+		</item>
+		<item name="Изменение меню" script_name="menu_edit.php"></item>
+	</menu>
+</data>
